@@ -1,0 +1,43 @@
+*{
+    background-color: black;
+    color: #fff;
+}
+
+.header{
+    color: red;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 70px;
+}
+
+.container{
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+
+form input{
+    border-color: black;
+    height: 30px;
+    width: 200px;
+    background-color: rgb(44, 43, 43);
+    color: white;
+}
+
+button{
+    background-color: black;
+    height: 30px;
+    width: 200px;
+    color: #fff;
+}
+.forgot-password{
+    color: rgb(44, 43, 43) ;
+    text-decoration: none;
+    padding-left: 60px;
+}
